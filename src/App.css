@@ -1,0 +1,71 @@
+* {
+    background-color: #00477e;
+}
+
+.Todo {
+    margin: 30px 30px 0 30px;
+    background-color: #fff;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, .05); */
+}
+
+.buttons {
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.button-complete {
+    background-color: #4caf50;
+    margin-right: 10px;
+    color: #fff;
+    padding: 5px;
+}
+
+.button-remove {
+    background-color: #f44336;
+    margin-right: 05px;
+    color: #fff;
+    padding: 5px;
+}
+
+.input {
+    background-color: #fff;
+    padding: 05px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.input:hover {
+    cursor: pointer;
+    color: #1ce;
+}
+
+.AddBtn {
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 04px;
+}
+
+.AddBtn:hover {
+    background-color: #1ce;
+    border-radius: 200px;
+    color: #fff;
+    transition: all 0.5 ease;
+}
